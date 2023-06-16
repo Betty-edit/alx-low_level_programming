@@ -20,12 +20,13 @@ int main(void)
 					if (n != 55 || m != 56)
 					{
 						putchar(',');
-						putchar(' '❩;
-								}
-								}
-								}
-								}
-								}
-								putchar('\n'❩;
-									return (0);
-									}
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
+									
