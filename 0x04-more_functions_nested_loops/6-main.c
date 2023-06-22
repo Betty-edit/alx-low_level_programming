@@ -5,7 +5,7 @@
 *
 * Return: Always 0.
 */
-intmain(void)
+int main(void)
 {
 print_line(0);
 print_line(2);
