@@ -21,7 +21,7 @@ int _atoi(char *s)
 		len++;
 	while (i < len && f == 0)
 	{
-		if (s[i] == '_')
+		if (s[i] == '-')
 			++d;
 		if (s[i] >= '0' && s[i] <= '9')
 		{
@@ -45,7 +45,7 @@ int _atoi(char *s)
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return : 0 (success), 1 (Error)
+ * Return: 0 (success), 1 (Error)
  */
 int main(int argc, char *argv[])
 {
